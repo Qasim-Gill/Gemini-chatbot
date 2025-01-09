@@ -7,3 +7,6 @@ git add .  <br>
 git commit -m "Initial commit"  <br>
 git branch -M main  <br>
 git push -u origin main
+
+pip freeze > requirements.txt
+then i manually upload it, streamlit needs to know which libraries it needs to download
